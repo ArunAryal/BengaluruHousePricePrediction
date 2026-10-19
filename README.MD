@@ -62,7 +62,7 @@ The data was split 80/20 (5,888 training and 1,472 test rows, `random_state=0`).
 | Ridge (default `alpha`) | 0.852 |
 | Lasso (default `alpha`) | 0.708 |
 
-Linear Regression and Ridge are effectively tied. Lasso scores lower with its default settings. Neither Lasso nor Ridge has been tuned.
+Linear Regression and Ridge are effectively tied. Lasso scores lower with its default settings.Tuning alpha with 5-fold cross-validation (GridSearchCV) brings Ridge to 0.854 (alpha ≈ 0.1) and Lasso to 0.855 (alpha ≈ 0.002), which is no better than plain Linear Regression
 
 The app uses the **Ridge** pipeline, saved as `house_price_model.joblib`.
 
