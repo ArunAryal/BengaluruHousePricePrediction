@@ -1,5 +1,12 @@
 # Bengaluru House Price Predictor
 
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![uv](https://img.shields.io/badge/uv-managed-DE5FE9?logo=uv&logoColor=white)](https://docs.astral.sh/uv/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-2EA44F?logo=streamlit&logoColor=white)](https://arunaryal-bengaluruhousepriceprediction-app-koc5xi.streamlit.app/)
+
 A small machine-learning project that estimates the price of a flat or house in Bengaluru from its location, size and number of rooms. A scikit-learn regression pipeline is trained in a Jupyter notebook, saved with `joblib`, and served through a [Streamlit](https://streamlit.io) web app.
 
 - **Live app:** [arunaryal-bengaluruhousepriceprediction-app-koc5xi.streamlit.app](https://arunaryal-bengaluruhousepriceprediction-app-koc5xi.streamlit.app/)
